@@ -1,0 +1,172 @@
+
+mkanet:
+  # Global
+  background-image: center / cover no-repeat fixed  url("/local/backgrounds/download.jfif")
+
+  # Blur background for popups
+  dialog-backdrop-filter: blur(12px)
+  iron-overlay-backdrop-opacity: 0
+  iron-overlay-backdrop-background-color: rgba(0, 0, 0, 0.32)
+  
+  # Main colors
+  primary-color: 'var(--app-header-background-color, #4685BF)'                    # Header
+  accent-color: 'var(--accent-color, #ff9800)'                                    # Accent color  
+  # accent-color: 'var(--accent-color, #722F2F)'                                    # Accent color                                                       # Accent color
+  disabled-color: '#7F7F7F'                                                       # Disabled color
+  dark-primary-color: 'var(--accent-color)'                                       # Hyperlinks                                         
+  light-primary-color: 'var(--accent-color)'        
+  ha-card-border-radius: '15px'   
+  # ha-card-background: 'rgba(150, 150, 150, 0.1)'
+  cch-background: 'rgba(150, 150, 150, 0.1)'                                      #Attempt at changes Custom Compact Header to transparent
+  custom_header-background: 'rgba(150, 150, 150, 0.1)'                            #Attempt at changes Custom Compact Header to transparent
+
+  card-background-color: rgba(34, 34, 34, 0.95)                                   #Attempt at making unused entities table visible
+  ha-card-background: rgba(105, 105, 105, 0.1)
+
+  sidebar-background-color: 'var(--secondary-background-color)'
+  # sidebar-background-color: '#252525'
+  # sidebar-selected-background-color: '#383C45'
+  
+  # Text
+  primary-font-family: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif"                                                               
+  paper-font-common-base_-_font-family: "var(--primary-font-family)"
+  paper-font-common-code_-_font-family: "var(--primary-font-family)"
+  paper-font-body1_-_font-family: "var(--primary-font-family)"
+  paper-font-subhead_-_font-family: "var(--primary-font-family)"
+  paper-font-headline_-_font-family: "var(--primary-font-family)"
+  paper-font-caption_-_font-family: "var(--primary-font-family)"
+  paper-font-title_-_font-family: "var(--primary-font-family)"  
+  primary-text-color: '#FFFFFF'                                                   # Primary text colour, here is referencing dark-primary-color
+  text-primary-color: 'var(--primary-text-color)'                                 # Primary text colour
+  text-light-primary-color: '#898989'
+  secondary-text-color: '#C4C4C4'                                                 #this is secondary text on the weather card for eg.  was '#5294E2'
+  # secondary-text-color: '#BABEC1'                                               #this is secondary text on the weather card for eg.  was '#5294E2'
+  disabled-text-color: '#7F848E'                                                  # Disabled text colour
+  label-badge-border-color: 'green'                                               # Label badge border, just a reference value   
+  #sidebar-text-color: '#9EB8D1' 
+
+  # Background colors          
+  primary-background-color: '#111111'  # systemGray5 dark mode
+  secondary-background-color: '#1C1C1C'                                           # Main card UI background  
+  divider-color: 'rgba(0, 0, 0, .12)'                                             # Divider 
+
+  # Table row
+  table-row-background-color: var(--primary-background-color)
+  table-row-alternative-background-color: var(--secondary-background-color)
+                                                                            
+  # Nav Menu                                                                   
+  paper-listbox-color: 'var(--primary-color)'                                     # Navigation menu selection hoover
+  paper-listbox-background-color: var(--primary-background-color)
+  #material-background-color: 'var(--primary-background-color)' 
+  #data-table-background-color: 'var(--primary-background-color)' 
+  paper-grey-50: 'var(--primary-text-color)'                                   
+  paper-grey-200: '#414A59'                                                       # Navigation menu selection
+                                                                            
+  # Paper card                                                               
+  paper-card-header-color: '#FFFFFF'      #'var(--accent-color)'                                  # Card header text colour
+  paper-card-background-color: 'rgba(115, 115, 115, 0.1)'                         # Card background colour
+  paper-dialog-background-color: '#434954'                                        # Card dialog background colour
+  paper-item-icon-color: '#A8A8A8'                                                # Icon color
+  paper-item-icon-active-color: '#F9C536'                                         # Icon color active
+  paper-item-icon_-_color: 'green'           
+  paper-item-selected_-_background-color: '#434954'                               # Popup item select                      
+  paper-tabs-selection-bar-color: 'green'
+  mini-media-player-base-color: '#414A59'                                         # Attempt to make media player black text for sky media
+  paper-input-container-color: '#383C45'
+
+  # Labels 
+  label-badge-red: 'var(--accent-color)'                                          # References the brand colour label badge border
+  label-badge-text-color: 'var(--primary-text-color)'                             # Now same as label badge border but that's a matter of taste
+  label-badge-background-color: '#2E333A'                                         # Same, but can also be set to transparent here
+  label-badge-background: 'rgba(255, 255, 255, 0.1)'
+
+  # Switches
+  paper-toggle-button-checked-button-color: 'var(--accent-color)'
+  paper-toggle-button-checked-bar-color: 'var(--accent-color)'
+  paper-toggle-button-checked-ink-color: 'var(--accent-color)'
+  paper-toggle-button-unchecked-button-color: 'var(--disabled-text-color)'
+  paper-toggle-button-unchecked-bar-color: 'var(--disabled-text-color)'
+  paper-toggle-button-unchecked-ink-color: 'var(--disabled-text-color)'  
+
+  # Sliders
+  paper-slider-knob-color: 'var(--accent-color)'
+  paper-slider-knob-start-color: 'var(--accent-color)'
+  paper-slider-pin-color: 'var(--accent-color)'
+  paper-slider-active-color: 'var(--accent-color)'
+  paper-slider-container-color: 'linear-gradient(var(--primary-background-color), var(--secondary-background-color)) no-repeat'
+  paper-slider-secondary-color: 'var(--secondary-background-color)'
+  paper-slider-disabled-active-color: 'var(--disabled-text-color)'
+  paper-slider-disabled-secondary-color: 'var(--disabled-text-color)'
+
+  mdc-text-field-fill-color: '#3F3F3F'
+  mdc-text-field-ink-color: var(--primary-text-color)
+  mdc-text-field-label-ink-color: var(--secondary-text-color)
+  mdc-select-fill-color: '#3F3F3F'
+  mdc-select-ink-color: var(--primary-text-color)
+  mdc-select-label-ink-color: var(--secondary-text-color)
+  mdc-select-idle-line-color: var(--primary-text-color)
+  mdc-select-dropdown-icon-color: var(--secondary-text-color)
+  mdc-select-hover-line-color: var(--primary-color)
+  
+  
+  input-fill-color: '#3F3F3F'
+  input-ink-color: var(--primary-text-color)
+  input-label-ink-color: var(--primary-text-color)
+  input-disabled-fill-color: '#3F3F3F'
+  input-disabled-ink-color: var(--disabled-text-color)
+  input-disabled-label-ink-color: var(--disabled-text-color)
+  input-idle-line-color: '#3F3F3F'
+  input-dropdown-icon-color: var(--secondary-text-color)
+  input-hover-line-color: var(--primary-color)
+  code-editor-background-color: "#2D3038"
+  code-editor-gutter-color: "#454A54"
+  codemirror-property: var(--accent-color)
+  label-badge-green: rgb(128, 200, 132)
+  label-badge-yellow: rgb(223, 194, 113)
+  label-badge-gray: rgb(95, 98, 103)
+  switch-checked-button-color: var(--primary-color)
+  mdc-checkbox-unchecked-color: var(--disabled-color)
+  material-secondary-background-color: var(--primary-background-color)
+  app-header-background-color: rgba(32, 49, 73, 0.9)
+  app-header-edit-background-color: rgba(32, 49, 73, 0.9)
+  app-header-text-color: var(--primary-text-color)
+  
+  graph-color-1: "#7F302F"
+  # graph-color-1: "#763130"
+  graph-color-2: "#0000ff"
+  graph-color-3: "#ffdd33"
+  graph-color-4: "#ff00ff"
+ 
+  # Google colors
+  google-red-500: '#E45E65'
+  google-green-500: '#39E949'
+
+  # Custom
+  mcg-title-letter-spacing: .15em
+
+  # Transparent Pop-Ups
+  card-mod-more-info-yaml: |
+    $: |
+      .mdc-dialog .mdc-dialog__container .mdc-dialog__surface {
+        background-color: rgba(115, 115, 115, 0.1) !important;
+      }
+
+  # Compact Header
+  card-mod-theme: techleech
+  header-height: 56px 
+  card-mod-root: |
+    .edit-mode, app-header, app-toolbar {
+      background: var(--app-header-background-color) !important;
+      color: var(--primary-text-color) !important;
+    }
+    ha-tabs {
+      --paper-tabs-selection-bar-color: var(--primary-color) !important;
+    }
+    paper-tab[aria-selected=true] {
+      color: var(--primary-color) !important;
+    }
+  card-mod-row-yaml: |
+    .: |
+      hui-generic-entity-row {
+        height: 38px;
+      }
